@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="256d5b4a-a00c-409c-8b61-f19e5b1c8697" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="kafka_consumer.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php-rdkafka/kafka_consumer.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10760">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+              <folding>
+                <element signature="e#1153#1172#0" expanded="true" />
+                <element signature="e#1660#1688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rd_kafka_s</find>
+      <find>rd_kafka_new</find>
+      <find>rd_kafka_conf_s</find>
+      <find>rd_kafka_brokers_add</find>
+      <find>rd_kafka_produce</find>
+      <find>rd_kafka_topic_new</find>
+      <find>rd_kafka_topic_t</find>
+      <find>rd_kafka_itopic_s</find>
+      <find>rd_kafka_consume</find>
+      <find>rd_kafka_topic_partition_s</find>
+      <find>rd_kafka_conf_new</find>
+      <find>rd_kafka_queue_new</find>
+      <find>rd_kafka_topic_s</find>
+      <find>newTopic</find>
+      <find>produce</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/librdkafka</dir>
+      <dir>$PROJECT_DIR$/librdkafka/src</dir>
+      <dir>$PROJECT_DIR$/php-rdkafka</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/librdkafka/CONFIGURATION.md" />
+        <option value="$PROJECT_DIR$/librdkafka/src/rdkafka_int.h" />
+        <option value="$PROJECT_DIR$/librdkafka/src/rdkafka_conf.h" />
+        <option value="$PROJECT_DIR$/librdkafka/src/rdkafka_topic.h" />
+        <option value="$PROJECT_DIR$/librdkafka/src/rdkafka_msg.h" />
+        <option value="$PROJECT_DIR$/php-rdkafka/conf.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="exstensions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exstensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exstensions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exstensions" type="462c0819:PsiDirectoryNode" />
+              <item name="php-rdkafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="256d5b4a-a00c-409c-8b61-f19e5b1c8697" name="Default" comment="" />
+      <created>1543307496428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543307496428</updated>
+      <workItem from="1543307499112" duration="23245000" />
+      <workItem from="1544580147189" duration="15897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39142000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49949136" visible="true" weight="0.18097281" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756868" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.50050867" side_tool="true" visible="true" weight="0.18597998" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_conf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+          <folding>
+            <element signature="e#5653#6001#0" expanded="true" />
+            <element signature="e#6396#6815#0" expanded="true" />
+            <element signature="e#6865#6911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_op.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_partition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8075">
+          <caret line="425" column="8" selection-start-line="425" selection-start-column="8" selection-end-line="425" selection-end-column="8" />
+          <folding>
+            <element signature="e#1484#1510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/queue.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/queue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1922" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/examples/rdkafka_performance.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/CONFIGURATION.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="126" column="116" lean-forward="true" selection-start-line="126" selection-start-column="116" selection-end-line="126" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_broker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8094" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_broker.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#2387#2411#0" expanded="true" />
+            <element signature="e#2419#2440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/win32/rdkafka_consumer_example_cpp/rdkafka_consumer_example_cpp.vcxproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_op.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdtypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_conf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+          <folding>
+            <element signature="e#5653#6001#0" expanded="true" />
+            <element signature="e#6396#6815#0" expanded="true" />
+            <element signature="e#6865#6911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_msg.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="322" column="41" lean-forward="true" selection-start-line="322" selection-start-column="41" selection-end-line="322" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_partition.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="392" column="24" selection-start-line="392" selection-start-column="24" selection-end-line="392" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/INTRODUCTION.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="738" column="1" selection-start-line="738" selection-start-column="1" selection-end-line="738" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src-cpp/rdkafkacpp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45962">
+          <caret line="2461" selection-end-line="2461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_partition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="495" column="21" lean-forward="true" selection-start-line="495" selection-start-column="21" selection-end-line="495" selection-end-column="21" />
+          <folding>
+            <element signature="e#1484#1510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_msg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3035">
+          <caret line="194" column="65" lean-forward="true" selection-start-line="194" selection-start-column="65" selection-end-line="194" selection-end-column="65" />
+          <folding>
+            <element signature="e#1483#1506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_topic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_conf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="1873" lean-forward="true" selection-start-line="1873" selection-end-line="1873" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_topic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+          <folding>
+            <element signature="e#1434#1449#0" expanded="true" />
+            <element signature="e#1741#1758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_int.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="643" lean-forward="true" selection-start-line="643" selection-end-line="643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="2524" column="36" selection-start-line="2524" selection-start-column="18" selection-end-line="2524" selection-end-column="36" />
+          <folding>
+            <element signature="e#1904#1952#0" expanded="true" />
+            <element signature="e#1977#2485#0" expanded="true" />
+            <element signature="e#3826#3990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka_queue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-774">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librdkafka/src/rdkafka.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="2467" column="5" lean-forward="true" selection-start-line="2467" selection-start-column="5" selection-end-line="2467" selection-end-column="5" />
+          <folding>
+            <element signature="e#2059#2104#0" expanded="true" />
+            <element signature="e#2649#2671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/kafka_consumer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#1164#1206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2519" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_topic.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/php_rdkafka.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="e#1644#1672#0" expanded="true" />
+            <element signature="e#1993#2039#0" expanded="true" />
+            <element signature="e#2081#2145#0" expanded="true" />
+            <element signature="e#2196#2213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/php_rdkafka_priv.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1998" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/topic_partition.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2371" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/topic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5586">
+          <caret line="366" column="1" lean-forward="true" selection-start-line="366" selection-start-column="1" selection-end-line="366" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_topic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/examples/producer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/examples/consumer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/examples/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_broker.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_collection.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_collection.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_partition.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/travis.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_partition.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="159" column="33" lean-forward="true" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/metadata_broker.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3366" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/rdkafka.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="470" column="41" selection-start-line="470" selection-start-column="34" selection-end-line="470" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/message.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/conf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="733" column="5" lean-forward="true" selection-start-line="733" selection-start-column="5" selection-end-line="733" selection-end-column="5" />
+          <folding>
+            <element signature="e#6660#7442#0" expanded="true" />
+            <element signature="e#7512#8112#0" expanded="true" />
+            <element signature="e#8182#8980#0" expanded="true" />
+            <element signature="e#16043#17055#0" expanded="true" />
+            <element signature="e#17125#18095#0" expanded="true" />
+            <element signature="e#18165#19202#0" expanded="true" />
+            <element signature="e#20746#20860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/fun.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/fun.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="164" selection-start-line="164" selection-end-line="164" selection-end-column="34" />
+          <folding>
+            <element signature="e#1153#1172#0" expanded="true" />
+            <element signature="e#1988#3179#0" expanded="true" />
+            <element signature="e#4856#4916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-rdkafka/kafka_consumer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10760">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="e#1153#1172#0" expanded="true" />
+            <element signature="e#1660#1688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
