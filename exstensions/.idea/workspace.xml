@@ -18,21 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kafka_consumer.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php-rdkafka/kafka_consumer.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10760">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-              <folding>
-                <element signature="e#1153#1172#0" expanded="true" />
-                <element signature="e#1660#1688#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -80,16 +66,15 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1058" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,15 +82,11 @@
               <item name="exstensions" type="b2602c69:ProjectViewProjectNode" />
               <item name="exstensions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="exstensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exstensions" type="462c0819:PsiDirectoryNode" />
-              <item name="php-rdkafka" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,20 +123,21 @@
       <updated>1543307496428</updated>
       <workItem from="1543307499112" duration="23245000" />
       <workItem from="1544580147189" duration="15897000" />
+      <workItem from="1545010870152" duration="666000" />
+      <workItem from="1545275976952" duration="49000" />
+      <workItem from="1545751207661" duration="487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39142000" />
+    <option name="totallyTimeSpent" value="40344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49949136" visible="true" weight="0.18097281" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49949136" visible="true" weight="0.1874106" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32756868" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Structure" order="3" sideWeight="0.50050867" side_tool="true" visible="true" weight="0.18597998" />
@@ -168,6 +150,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756868" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,11 +169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2869">
           <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-          <folding>
-            <element signature="e#5653#6001#0" expanded="true" />
-            <element signature="e#6396#6815#0" expanded="true" />
-            <element signature="e#6865#6911#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -205,9 +183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8075">
           <caret line="425" column="8" selection-start-line="425" selection-start-column="8" selection-end-line="425" selection-end-column="8" />
-          <folding>
-            <element signature="e#1484#1510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -242,10 +217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349">
           <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#2387#2411#0" expanded="true" />
-            <element signature="e#2419#2440#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -272,11 +243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2869">
           <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-          <folding>
-            <element signature="e#5653#6001#0" expanded="true" />
-            <element signature="e#6396#6815#0" expanded="true" />
-            <element signature="e#6865#6911#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -312,9 +278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="495" column="21" lean-forward="true" selection-start-line="495" selection-start-column="21" selection-end-line="495" selection-end-column="21" />
-          <folding>
-            <element signature="e#1484#1510#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -322,9 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3035">
           <caret line="194" column="65" lean-forward="true" selection-start-line="194" selection-start-column="65" selection-end-line="194" selection-end-column="65" />
-          <folding>
-            <element signature="e#1483#1506#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -351,10 +311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-          <folding>
-            <element signature="e#1434#1449#0" expanded="true" />
-            <element signature="e#1741#1758#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -369,11 +325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="2524" column="36" selection-start-line="2524" selection-start-column="18" selection-end-line="2524" selection-end-column="36" />
-          <folding>
-            <element signature="e#1904#1952#0" expanded="true" />
-            <element signature="e#1977#2485#0" expanded="true" />
-            <element signature="e#3826#3990#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,10 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="2467" column="5" lean-forward="true" selection-start-line="2467" selection-start-column="5" selection-end-line="2467" selection-end-column="5" />
-          <folding>
-            <element signature="e#2059#2104#0" expanded="true" />
-            <element signature="e#2649#2671#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#1164#1206#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -417,12 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="e#1644#1672#0" expanded="true" />
-            <element signature="e#1993#2039#0" expanded="true" />
-            <element signature="e#2081#2145#0" expanded="true" />
-            <element signature="e#2196#2213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,15 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-305">
           <caret line="733" column="5" lean-forward="true" selection-start-line="733" selection-start-column="5" selection-end-line="733" selection-end-column="5" />
-          <folding>
-            <element signature="e#6660#7442#0" expanded="true" />
-            <element signature="e#7512#8112#0" expanded="true" />
-            <element signature="e#8182#8980#0" expanded="true" />
-            <element signature="e#16043#17055#0" expanded="true" />
-            <element signature="e#17125#18095#0" expanded="true" />
-            <element signature="e#18165#19202#0" expanded="true" />
-            <element signature="e#20746#20860#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,22 +452,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="164" selection-start-line="164" selection-end-line="164" selection-end-column="34" />
-          <folding>
-            <element signature="e#1153#1172#0" expanded="true" />
-            <element signature="e#1988#3179#0" expanded="true" />
-            <element signature="e#4856#4916#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php-rdkafka/kafka_consumer.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10760">
+        <state relative-caret-position="855">
           <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="e#1153#1172#0" expanded="true" />
-            <element signature="e#1660#1688#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

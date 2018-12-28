@@ -45,7 +45,7 @@ if ($obj1 === $obj2) {
 }*/
 
 // 多进程测试
-//$obj = TestSingleton::getInstance();
+$obj = TestSingleton::getInstance();
 for ($i = 0; $i < 10; $i++) {
     $pid = pcntl_fork();
     global $obj1;
