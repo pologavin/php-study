@@ -1,6 +1,25 @@
 {
-    "require": {
-        "nmred/kafka-php": "v0.2.0.8",
-        "kherge/json": "^2.0"
+  "name": "gavin",
+  "description": "PHP 学习",
+  "keywords": [
+    "php 学习"
+  ],
+  "type": "package",
+  "require-dev": {
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*"
+  },
+  "authors": [
+    {
+      "name": "gavin",
+      "email": "hsbodegj@gmail.com"
     }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+    }
+  }
 }
