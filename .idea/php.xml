@@ -12,14 +12,6 @@
       <path value="$PROJECT_DIR$/../Code-Helper/swoole-ide-helper" />
       <path value="$PROJECT_DIR$/../Code-Helper/yar-phpstorm-helper" />
       <path value="$PROJECT_DIR$/../Code-Helper/php-rdkafka-stubs" />
-      <path value="$PROJECT_DIR$/vendor/nmred/kafka-php" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
-      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
-      <path value="$PROJECT_DIR$/vendor/kherge/json" />
-      <path value="$PROJECT_DIR$/vendor/kherge/file-manager" />
-      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/../Code-Helper/php-event-ide-helper" />
     </include_path>
   </component>
