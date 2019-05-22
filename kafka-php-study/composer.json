@@ -1,0 +1,7 @@
+{
+  "name": "kafka-php-study",
+  "version": "0.0.1",
+  "require": {
+    "nmred/kafka-php": "dev-master"
+  }
+}

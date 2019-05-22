@@ -1,0 +1,7 @@
+{
+  "name": "php-elasticsearch-study",
+  "version": "0.0.1",
+  "require": {
+    "elasticsearch/elasticsearch": "~6.0"
+  }
+}
