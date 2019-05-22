@@ -27,7 +27,7 @@
  *          1. php5 unset后立即回收；
  *          2. php7+ unset 没有立即回收，
  *          3. 内存回收的触发点是refcount-1： php7：在处理++运算之前a的refcount是0,如果这时候unset，也不会内存回收；
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2019/5/21
  * Time: 下午5:01
  */

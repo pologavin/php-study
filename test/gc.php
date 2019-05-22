@@ -1,7 +1,7 @@
 <?php
 /**
  * php gc 垃圾回收器
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2019/5/21
  * Time: 下午4:07
  */

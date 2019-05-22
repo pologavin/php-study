@@ -1,7 +1,7 @@
 <?php
 /**
  * 单例模式
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2018/12/15
  * Time: 下午5:10
  */

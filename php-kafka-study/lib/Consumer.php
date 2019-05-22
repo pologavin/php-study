@@ -1,7 +1,7 @@
 <?php
 /**
  * High-level consumer
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2018/11/21
  * Time: 下午4:10
  */

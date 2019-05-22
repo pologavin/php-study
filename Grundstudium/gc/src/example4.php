@@ -15,7 +15,7 @@
  *  1. 结论：
  *         1. 对象类型初始化refcount=1，属性初始化refcount为2（一样）
  *         2. unset可以立即回收
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2019/5/22
  * Time: 下午3:38
  */

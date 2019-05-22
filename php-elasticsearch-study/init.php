@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2018/12/18
  * Time: 下午7:42
  */

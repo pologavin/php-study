@@ -7,7 +7,7 @@
  *  3. 多进程编程下是会破坏单例模式的；主进程和子进程是共享一个实例；但子进程之间不会共享一个实例；
  *  4. 而fpm是多进程模型，所以单例模式只是针对单个请求。并发请求下是这种单例模式是被破坏的。
  *
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2018/12/16
  * Time: 下午1:23
  */

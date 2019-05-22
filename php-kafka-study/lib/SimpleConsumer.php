@@ -1,7 +1,7 @@
 <?php
 /**
  * Simple (Low-level) consumer
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2019/5/9
  * Time: 下午2:18
  */

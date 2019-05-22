@@ -1,7 +1,7 @@
 <?php
 /**
  * es 配置
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2019/1/29
  * Time: 下午3:58
  */

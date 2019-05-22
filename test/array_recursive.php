@@ -1,7 +1,7 @@
 <?php
 /**
  * 数组递归
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2018/12/29
  * Time: 上午10:26
  */

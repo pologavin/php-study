@@ -17,7 +17,7 @@
  *      2. 内存回收：
  *              1. php5 unset后自动回收（此时refcount-1==0）；
  *              2. php7 unset 没有自动回收（此时refcount-1==1）
- * User: gaojun<godwin.gao@huolala.cn>
+ * User: gaojun<hsbodegj@gmail.com>
  * Date: 2019/5/21
  * Time: 下午5:18
  */
