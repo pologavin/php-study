@@ -4,15 +4,15 @@
     <include_path>
       <path value="$PROJECT_DIR$/xiuxiu/vendor/predis/predis" />
       <path value="$PROJECT_DIR$/xiuxiu/vendor/mtphp/fw" />
-      <path value="$PROJECT_DIR$/xiuxiu/vendor/hashids/hashids" />
-      <path value="$PROJECT_DIR$/xiuxiu/vendor/rmccue/requests" />
-      <path value="$PROJECT_DIR$/xiuxiu/vendor/composer" />
-      <path value="$PROJECT_DIR$/xiuxiu/vendor/mariano/disque-php" />
-      <path value="$PROJECT_DIR$/xiuxiu/vendor/lifei6671/php-captcha" />
-      <path value="$PROJECT_DIR$/../Code-Helper/swoole-ide-helper" />
-      <path value="$PROJECT_DIR$/../Code-Helper/yar-phpstorm-helper" />
-      <path value="$PROJECT_DIR$/../Code-Helper/php-rdkafka-stubs" />
-      <path value="$PROJECT_DIR$/../Code-Helper/php-event-ide-helper" />
+      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/hashids/hashids" />
+      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/mariano/disque-php" />
+      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/lifei6671/php-captcha" />
+      <path value="$PROJECT_DIR$/../../Code-Helper/swoole-ide-helper" />
+      <path value="$PROJECT_DIR$/../../Code-Helper/yar-phpstorm-helper" />
+      <path value="$PROJECT_DIR$/../../Code-Helper/php-rdkafka-stubs" />
+      <path value="$PROJECT_DIR$/../../Code-Helper/php-event-ide-helper" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
