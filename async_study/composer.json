@@ -1,0 +1,28 @@
+{
+  "name": "async_study",
+  "description": "php异步编程学习",
+  "keywords": [
+    "php异步编程学习"
+  ],
+  "type": "package",
+  "require-dev": {
+    "react/promise": "v2.2.1"
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*"
+  },
+  "authors": [
+    {
+      "name": "gavin",
+      "email": "hsbodegj@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "async_study\\http\\": "./src",
+      "async_study\\mysql\\": "./src"
+    }
+  }
+}

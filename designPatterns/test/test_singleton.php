@@ -15,9 +15,12 @@
 namespace design\test;
 
 use Design\singletonTrait;
+use design\synchronizationSingleton;
 
 define('ROOT', dirname(__DIR__));
 require_once ROOT . DIRECTORY_SEPARATOR . 'singletonTrait.php';
+
+require_once ROOT . DIRECTORY_SEPARATOR . 'synchronizationSingleton.php';
 
 class TestSingleton
 {
@@ -30,6 +33,14 @@ class TestSingleton
 
 }
 
+class TestSynchronization extends synchronizationSingleton
+{
+    public function main()
+    {
+        echo 'this is synchronization singleton sample!' . "\r\n";
+    }
+}
+
 /*$obj0 = TestSingleton::getInstance();
 $obj = TestSingleton::getInstance();
 if ($obj === $obj0) {
@@ -37,6 +48,7 @@ if ($obj === $obj0) {
 }
 //$obj->main();
 
+// 反射对象测试
 $reflection = new \ReflectionClass(TestSingleton::class);
 $obj1 = $reflection->newInstanceWithoutConstructor();
 $obj2 = $reflection->newInstanceWithoutConstructor();
@@ -56,6 +68,7 @@ for ($i = 0; $i < 10; $i++) {
             exit;
         case 0:
             $obj1 = TestSingleton::getInstance();
+            $obj2 = TestSynchronization::getInstance();
             break;
         default:
             //$obj2 = TestSingleton::getInstance();

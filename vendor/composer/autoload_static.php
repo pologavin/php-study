@@ -8,12 +8,26 @@ class ComposerStaticInit5f5aaf58bc208222a61064916583877c
 {
     public static $files = array (
         'e8aa6e4b5a1db2f56ae794f1505391a8' => __DIR__ . '/..' . '/amphp/amp/lib/functions.php',
+        '913619c86babbb902e7ffc6850548285' => __DIR__ . '/..' . '/kherge/file-manager/src/KHerGe/File/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Seld\\JsonLint\\' => 14,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+        ),
+        'K' => 
+        array (
+            'KHerGe\\JSON\\' => 12,
+            'KHerGe\\File\\' => 12,
+        ),
+        'J' => 
+        array (
+            'JsonSchema\\' => 11,
         ),
         'A' => 
         array (
@@ -22,9 +36,25 @@ class ComposerStaticInit5f5aaf58bc208222a61064916583877c
     );
 
     public static $prefixDirsPsr4 = array (
+        'Seld\\JsonLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'KHerGe\\JSON\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kherge/json/src/KHerGe/JSON',
+        ),
+        'KHerGe\\File\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kherge/file-manager/src/KHerGe/File',
+        ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
         'Amp\\' => 
         array (

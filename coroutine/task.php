@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * 任务
  * User: gaojun<godwin.gao@huolala.cn>
  * Date: 2018/12/3
  * Time: 上午11:37
@@ -16,6 +16,8 @@ class Task
     protected $sendVal = null;
     // 是否首次 yield
     protected $beforeFirstYield = true;
+
+    protected $exception = null;
 
     public function __construct($taskId, Generator $coroutine)
     {
@@ -33,6 +35,10 @@ class Task
         $this->sendVal = $sendVal;
     }
 
+    public function setException($exception) {
+        $this->exception = $exception;
+    }
+
     public function run()
     {
         // 如之前提到的在send之前, 当迭代器被创建后第一次 yield 之前，一个 renwind() 方法会被隐式调用
@@ -46,6 +52,10 @@ class Task
         if ($this->beforeFirstYield) {
             $this->beforeFirstYield = false;
             return $this->coroutine->current();
+        } elseif ($this->exception) {
+            $retval = $this->coroutine->throw($this->exception);
+            $this->exception = null;
+            return $retval;
         } else {
             $retval = $this->coroutine->send($this->sendVal);
             $this->sendVal = null;

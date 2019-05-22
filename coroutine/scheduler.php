@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * 调度器
  * User: gaojun<godwin.gao@huolala.cn>
  * Date: 2018/12/3
  * Time: 上午11:40
@@ -31,6 +31,25 @@ class Scheduler
         return $tid;
     }
 
+    public function killTask($tid) {
+        if (!isset($this->tasks[$tid])) {
+            return false;
+        }
+
+        unset($this->tasks[$tid]);
+
+        // This is a bit ugly and could be optimized so it does not have to walk the queue,
+        // but assuming that killing tasks is rather rare I won't bother with it now
+        foreach ($this->queue as $i => $task) {
+            if ($task->getTaskId() === $tid) {
+                unset($this->queue[$i]);
+                break;
+            }
+        }
+
+        return true;
+    }
+
     public function schedule(Task $task)
     {
         // 任务入队
@@ -39,10 +58,14 @@ class Scheduler
 
     public function run()
     {
+        //$this->newTask($this->ioPollTask());//产生“常驻任务”，负责检查socket事件
         while (!$this->queue->isEmpty()) {
-            // 任务出队
             $task = $this->queue->dequeue();
-            $task->run();
+            $retval = $task->run();
+            if ($retval instanceof SystemCall) {
+                $retval($task, $this);
+                continue;
+            }
 
             if ($task->isFinished()) {
                 unset($this->tasks[$task->getTaskId()]);
@@ -119,7 +142,7 @@ class Scheduler
     protected function ioPollTask()
     {
         while (true) {
-            if ($this->taskQueue->isEmpty()) {
+            if ($this->queue->isEmpty()) {
                 $this->ioPoll(null);
             } else {
                 $this->ioPoll(0);

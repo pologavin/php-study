@@ -6,6 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'KHerGe\\JSON\\' => array($vendorDir . '/kherge/json/src/KHerGe/JSON'),
+    'KHerGe\\File\\' => array($vendorDir . '/kherge/file-manager/src/KHerGe/File'),
+    'JsonSchema\\' => array($vendorDir . '/justinrainbow/json-schema/src/JsonSchema'),
     'Amp\\' => array($vendorDir . '/amphp/amp/lib'),
 );

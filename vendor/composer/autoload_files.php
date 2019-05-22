@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'e8aa6e4b5a1db2f56ae794f1505391a8' => $vendorDir . '/amphp/amp/lib/functions.php',
+    '913619c86babbb902e7ffc6850548285' => $vendorDir . '/kherge/file-manager/src/KHerGe/File/functions.php',
 );

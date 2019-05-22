@@ -49,6 +49,13 @@ class Sample implements \Iterator
 }
 
 $data = range(1, 100);
+if(!$data instanceof \Traversable) {
+    echo 'NOT Traversable!' . "\r\n";
+}
+if(!is_iterable($data)) {
+    echo 'NOT Traversable!' . "\r\n";
+}
+var_dump($data);
 
 $sample = new Sample($data);
 
