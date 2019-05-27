@@ -26,7 +26,7 @@
 <?php
 /**
  * 任务
- * User: gaojun<hsbodegj@gmail.com>
+ * User: gaojun<godwin.gao@huolala.cn>
  * Date: 2018/12/3
  * Time: 上午11:37
  */
@@ -103,7 +103,7 @@ class Task
 <?php
 /**
  * 调度器
- * User: gaojun<hsbodegj@gmail.com>
+ * User: gaojun<godwin.gao@huolala.cn>
  * Date: 2018/12/3
  * Time: 上午11:40
  */

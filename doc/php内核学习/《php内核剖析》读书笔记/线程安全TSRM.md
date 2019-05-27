@@ -1,0 +1,6 @@
+php的SAPI多数是单线程环境，如Cli,Fpm,Cgi等，每个进程只启动一个主线程。这种单线程模式下不存在线程安全问题。但是也有多线程环境，如Apache，这种多线程环境通过全局变量来实现共享数据，就存在线程之间的冲突问题，就存在线程安全的问题。php的TSRM（Thread Safe Resource Mananger）就是解决多线程环境下的线程安全问题。
+
+- TRSM的实现
+> 隔离线程间是通过复制副本进程共享变量的，不存在全局变量来共享的。
+1. 核心思想是为不同的线程分配独立的内存空间，如果一个资源会被多个资源使用，那么久需要预先想TSRM注册资源，TSRM会为这个资源分配一个唯一的ID,并把这种资源的大小，初始化函数等保存在一个tsrm_resource_type的结构中，各线程只能通过TSRM分配的资源ID访问，如果是第一次访问就会根据大小分配一开内存保存下来工后面使用。
+2. TSRM为每个线程分配一个tsrm_tls_entry结构保存所有公共资源。tsrm_tls_entry结构是保存在tsrm_tls_table中，这个是全局变量，操作时会加锁处理。每个tsrm_tls_entry在tsrm_tls_table中的位置是根据线程ID和预设置的线程数取模得到的。也就是说多个线程的tsrm_tls_entry可能会保存在tsrm_tls_table同一个位置，所以tsrm_tls_entry是个链表结构。
