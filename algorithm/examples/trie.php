@@ -38,10 +38,13 @@ class Trie
         for ($i = 0; $i < $length; $i++) {
             $letter = mb_substr($word, $i, 1);
             if (!isset($node[$letter])) {
-                $node[$letter] = [];
+                $node[$letter] = [
+                    'is_end' => false,
+                ];
             }
             $node = &$node[$letter];
         }
+        $node['is_end'] = true;
         return true;
     }
 
@@ -56,7 +59,7 @@ class Trie
             return false;
         }
         $endNode = $this->searchEndNode($word);
-        return $endNode !== null && empty($endNode);
+        return $endNode !== null && $endNode['is_end'];
     }
 
     /**
@@ -89,7 +92,13 @@ class Trie
 }
 
 $trie = new Trie();
-$res = $trie->insert('字典树，又称 前缀树 或 trie树，是一种有序树，用于保存关联数组，其中的键通常是字符串。');
+$res = $trie->insert('apple');
+$res = $trie->search('apple');
 var_dump($res);
-$res = $trie->search('字典树，又称 前缀树 或 trie树，是一种有序树，用于保存关联数组，其中的键通常是字符串。');
+$res = $trie->search('app');
+var_dump($res);
+$res = $trie->startsWith('app');
+var_dump($res);
+$res = $trie->insert('app');
+$res = $trie->search('app');
 var_dump($res);
