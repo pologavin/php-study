@@ -4,20 +4,19 @@
     <include_path>
       <path value="$PROJECT_DIR$/xiuxiu/vendor/predis/predis" />
       <path value="$PROJECT_DIR$/xiuxiu/vendor/mtphp/fw" />
-      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/hashids/hashids" />
-      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/rmccue/requests" />
-      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/composer" />
-      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/mariano/disque-php" />
-      <path value="$PROJECT_DIR$/../../Php-Study/xiuxiu/vendor/lifei6671/php-captcha" />
-      <path value="$PROJECT_DIR$/../../Code-Helper/swoole-ide-helper" />
-      <path value="$PROJECT_DIR$/../../Code-Helper/yar-phpstorm-helper" />
-      <path value="$PROJECT_DIR$/../../Code-Helper/php-rdkafka-stubs" />
-      <path value="$PROJECT_DIR$/../../Code-Helper/php-event-ide-helper" />
+      <path value="$PROJECT_DIR$/xiuxiu/vendor/hashids/hashids" />
+      <path value="$PROJECT_DIR$/xiuxiu/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/xiuxiu/vendor/composer" />
+      <path value="$PROJECT_DIR$/xiuxiu/vendor/mariano/disque-php" />
+      <path value="$PROJECT_DIR$/xiuxiu/vendor/lifei6671/php-captcha" />
+      <path value="$PROJECT_DIR$/../Code-Helper/swoole-ide-helper" />
+      <path value="$PROJECT_DIR$/../Code-Helper/yar-phpstorm-helper" />
+      <path value="$PROJECT_DIR$/../Code-Helper/php-rdkafka-stubs" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://docker-lnmp_php72:latest/php" id="8574b100-20a9-4188-b603-d30e4aa9ef54" name="docker-lnmp_php72:latest (project level)" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker://docker-lnmp_php72:latest/php" id="8574b100-20a9-4188-b603-d30e4aa9ef54" name="docker-lnmp_php72:latest" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-lnmp_php72:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>

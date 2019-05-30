@@ -1,0 +1,27 @@
+{
+  "name": "gavin",
+  "description": "",
+  "keywords": [
+    ""
+  ],
+  "type": "package",
+  "require-dev": {
+    "ronnylt/redlock-php" : "master",
+    "malkusch/lock" : "master"
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*"
+  },
+  "authors": [
+    {
+      "name": "gavin",
+      "email": "hsbodegj@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}
