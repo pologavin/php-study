@@ -6,12 +6,11 @@
   ],
   "type": "package",
   "require-dev": {
-    "ronnylt/redlock-php" : "master",
-    "malkusch/lock" : "master"
   },
   "require": {
     "php": ">=7.0",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "malkusch/lock": "^2.1"
   },
   "authors": [
     {
