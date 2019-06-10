@@ -331,40 +331,40 @@ $arr = [3,9,6,97,14,9,2,8,34,12,23,48,18];
 $sort = new Sort();
 $startTime = microtime(true);
 $ret = $sort->bubbleSort($arr);
-echo '冒泡排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '冒泡排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->selectionSort($arr);
-echo '选择排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '选择排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->insertionSort($arr);
-echo '插入排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '插入排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->shellSort($arr);
-echo '排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->mergeSort($arr);
-echo '归并排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '归并排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->quickSort($arr);
-echo '快速排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '快速排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->heapSort($arr);
-echo '堆排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '堆排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->countingSort($arr);
-echo '计数排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '计数排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->bucketSort($arr);
-echo '桶排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '桶排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
 
 $startTime = microtime(true);
 $ret = $sort->radixSort($arr);
-echo '基数排序时间：'. (microtime(true)-$startTime) *1000 . 's'.PHP_EOL;
+echo '基数排序时间：'. (microtime(true)-$startTime) *1000 . '毫秒'.PHP_EOL;
