@@ -1,0 +1,56 @@
+array (
+  'type' => 1,
+  'message' => 'Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn\'t load from \'http://nginx:80/php-webService/server.php/test?wsdl\' : failed to load external entity "http://nginx:80/php-webService/server.php/test?wsdl"
+ in /var/www/html/php-webService/client.php:23
+Stack trace:
+#0 /var/www/html/php-webService/client.php(23): SoapClient->SoapClient(\'http://nginx:80...\')
+#1 {main}
+  thrown',
+  'file' => '/var/www/html/php-webService/client.php',
+  'line' => 23,
+)array (
+  'type' => 1,
+  'message' => 'Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn\'t load from \'http://127.0.0.1:80/php-webService/server.php/test?wsdl\' : failed to load external entity "http://127.0.0.1:80/php-webService/server.php/test?wsdl"
+ in /var/www/html/php-webService/client.php:23
+Stack trace:
+#0 /var/www/html/php-webService/client.php(23): SoapClient->SoapClient(\'http://127.0.0....\')
+#1 {main}
+  thrown',
+  'file' => '/var/www/html/php-webService/client.php',
+  'line' => 23,
+)array (
+  'type' => 1,
+  'message' => 'Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn\'t load from \'http://nginx:80/php-webService/server.php/test?wsdl\' : failed to load external entity "http://nginx:80/php-webService/server.php/test?wsdl"
+ in /var/www/html/php-webService/client.php:34
+Stack trace:
+#0 /var/www/html/php-webService/client.php(34): SoapClient->SoapClient(\'http://nginx:80...\', Array)
+#1 {main}
+  thrown',
+  'file' => '/var/www/html/php-webService/client.php',
+  'line' => 34,
+)array (
+  'type' => 1,
+  'message' => 'Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn\'t load from \'http://nginx:80/php-webService/server.php/test?wsdl\' : failed to load external entity "http://nginx:80/php-webService/server.php/test?wsdl"
+ in /var/www/html/php-webService/client.php:34
+Stack trace:
+#0 /var/www/html/php-webService/client.php(34): SoapClient->SoapClient(\'http://nginx:80...\', Array)
+#1 {main}
+  thrown',
+  'file' => '/var/www/html/php-webService/client.php',
+  'line' => 34,
+)NULLNULLNULLNULLNULLNULLNULLNULLarray (
+  'type' => 8,
+  'message' => 'Undefined index: SERVER_NAME',
+  'file' => '/var/www/html/php-webService/lib/Client.php',
+  'line' => 82,
+)NULLNULLNULLNULLNULLarray (
+  'type' => 8,
+  'message' => 'Undefined index: SERVER_NAME',
+  'file' => '/var/www/html/php-webService/lib/Client.php',
+  'line' => 72,
+)array (
+  'type' => 8,
+  'message' => 'Undefined index: SERVER_NAME',
+  'file' => '/var/www/html/php-webService/lib/Client.php',
+  'line' => 72,
+)
