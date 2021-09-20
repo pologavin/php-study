@@ -1,0 +1,9 @@
+11array (
+  'type' => 1,
+  'message' => 'Uncaught Error: Class \'Lib\\Sensitive\' not found in /var/www/html/Sensitive/yar.php:11
+Stack trace:
+#0 {main}
+  thrown',
+  'file' => '/var/www/html/Sensitive/yar.php',
+  'line' => 11,
+)11NULL11NULL11NULL

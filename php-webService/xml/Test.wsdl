@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<definitions name="webService\server\Test" targetNamespace="urn:webService\server\Test" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:webService\server\Test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+<types xmlns="http://schemas.xmlsoap.org/wsdl/" />
+
+<!-- Messages -->
+<!-- Input parameters for method func1 -->
+<message name="func1Request">
+<part name="value" type="xsd:string" />
+</message>
+<!-- Output for method func1 -->
+<message name="func1Response">
+<part name="func1" type="xsd:string" />
+</message>
+
+<!-- Ports -->
+<portType name="webService\server\TestPort"><operation name="func1">
+<input message="tns:func1Request" />
+<output message="tns:func1Response" />
+</operation>
+</portType>
+
+<!-- SOAP Bindings -->
+<binding name="webService\server\TestBinding" type="tns:webService\server\TestPort">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+<operation name="func1">
+<soap:operation soapAction="urn:webService\server\Test#webService\server\Test#func1" />
+<input><soap:body use="encoded" namespace="urn:webService\server\Test" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:webService\server\Test" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+</binding>
+
+<!-- Service (location) -->
+<service name="webService\server\Test">
+<documentation />
+<port name="webService\server\TestPort" binding="tns:webService\server\TestBinding"><soap:address location="http://127.0.0.1:80/php-webService/server.php?wsdl" />
+</port>
+</service>
+</definitions>
