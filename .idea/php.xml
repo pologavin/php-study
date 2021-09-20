@@ -16,7 +16,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://docker-lnmp_php72:latest/php" id="8574b100-20a9-4188-b603-d30e4aa9ef54" name="docker-lnmp_php72:latest" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker://docker-lnmp_php72:latest/php" id="8574b100-20a9-4188-b603-d30e4aa9ef54" name="docker-lnmp_php72:latest (project level)" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-lnmp_php72:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
