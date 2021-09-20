@@ -23,7 +23,7 @@ class Produce
     public function main($count = 1000)
     {
         for ($i = 0; $i < $count; $i++) {
-            $res = (new MainProducer(Kafka::BROKER))->produce(Keys::TOPIC_TEST_DEMO, json_encode(['id' => $i]), Keys::GROUP_DEMO, 1);
+            $res = (new MainProducer(Kafka::BROKER))->produce(Keys::TOPIC_TEST_DEMO, json_encode(['id' => $i]), Keys::GROUP_DEMO);
         }
         echo 'kafka produce ' . $count . ' success!';
     }

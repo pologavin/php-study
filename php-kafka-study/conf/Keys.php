@@ -11,5 +11,6 @@ namespace kafka\conf;
 class Keys
 {
     const GROUP_DEMO = 'group_demo';
+    const GROUP_DEMO1 = 'group_demo1';
     const TOPIC_TEST_DEMO = 'topic_test_demo';
 }

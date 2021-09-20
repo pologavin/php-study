@@ -1,0 +1,24 @@
+{
+  "name": "redis-study",
+  "description": "",
+  "keywords": [
+    ""
+  ],
+  "type": "package",
+  "require-dev": {
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "authors": [
+    {
+      "name": "gavin",
+      "email": "hsbodegj@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}

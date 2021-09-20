@@ -22,7 +22,7 @@ class Consumer
     public function main()
     {
         $config = Kafka::BROKER;
-        MainConsumer::start($config, [$this, 'consume'], Keys::TOPIC_TEST_DEMO, Keys::GROUP_DEMO, [0]);
+        MainConsumer::start($config, [$this, 'consume'], Keys::TOPIC_TEST_DEMO, Keys::GROUP_DEMO);
     }
 
     public function consume($messages)
